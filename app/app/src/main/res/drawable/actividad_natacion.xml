@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dibujo de la actividad Natación -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="100dp"
+    android:viewportWidth="240"
+    android:viewportHeight="100">
+    <path android:fillColor="#FF00838F" android:pathData="M0,0h240v100h-240z" />
+    <path android:fillColor="#66FFFFFF" android:pathData="M150,50a40,40 0 1,0 80,0a40,40 0 1,0 -80,0z" />
+    <path android:fillColor="#99FFFFFF" android:pathData="M20,80l40,-50l30,35l25,-25l35,40z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M180,30a12,12 0 1,0 24,0a12,12 0 1,0 -24,0z" />
+</vector>
