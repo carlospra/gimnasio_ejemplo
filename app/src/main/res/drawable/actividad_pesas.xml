@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Dibujo de la actividad Pesas -->
+<!-- Dibujo de la actividad Pesas: una mancuerna -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="240dp"
     android:height="100dp"
     android:viewportWidth="240"
     android:viewportHeight="100">
-    <path android:fillColor="#FFE65100" android:pathData="M0,0h240v100h-240z" />
-    <path android:fillColor="#66FFFFFF" android:pathData="M150,50a40,40 0 1,0 80,0a40,40 0 1,0 -80,0z" />
-    <path android:fillColor="#99FFFFFF" android:pathData="M20,80l40,-50l30,35l25,-25l35,40z" />
-    <path android:fillColor="#FFFFFFFF" android:pathData="M180,30a12,12 0 1,0 24,0a12,12 0 1,0 -24,0z" />
+    <path android:pathData="M0,0h240v100h-240z"
+        android:fillColor="#E65100" />
+    <path android:pathData="M0,86h240v14h-240z"
+        android:fillColor="#BF360C" />
+    <path android:pathData="M70,46h100v8h-100z"
+        android:fillColor="#FFE0B2" />
+    <path android:pathData="M56,30h14v40h-14z"
+        android:fillColor="#3E2723" />
+    <path android:pathData="M42,36h14v28h-14z"
+        android:fillColor="#4E342E" />
+    <path android:pathData="M170,30h14v40h-14z"
+        android:fillColor="#3E2723" />
+    <path android:pathData="M184,36h14v28h-14z"
+        android:fillColor="#4E342E" />
 </vector>

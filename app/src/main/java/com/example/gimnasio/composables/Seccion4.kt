@@ -33,7 +33,7 @@ fun Seccion4() {
     ) {
         Image(
             painter = painterResource(R.drawable.actividad_natacion),
-            contentDescription = "Dibujo de la actividad Natación",
+            contentDescription = "Dibujo de la actividad Natación: el agua de la piscina y una escalera",
             contentScale = ContentScale.Crop,
             modifier = Modifier
                 .fillMaxWidth()

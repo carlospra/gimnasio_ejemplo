@@ -33,7 +33,7 @@ fun Seccion3() {
     ) {
         Image(
             painter = painterResource(R.drawable.actividad_pesas),
-            contentDescription = "Dibujo de la actividad Pesas",
+            contentDescription = "Dibujo de la actividad Pesas: una mancuerna",
             contentScale = ContentScale.Crop,
             modifier = Modifier
                 .fillMaxWidth()

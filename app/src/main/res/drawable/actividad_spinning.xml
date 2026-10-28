@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Dibujo de la actividad Spinning -->
+<!-- Dibujo de la actividad Spinning: una bicicleta estática -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="240dp"
     android:height="100dp"
     android:viewportWidth="240"
     android:viewportHeight="100">
-    <path android:fillColor="#FF01579B" android:pathData="M0,0h240v100h-240z" />
-    <path android:fillColor="#66FFFFFF" android:pathData="M150,50a40,40 0 1,0 80,0a40,40 0 1,0 -80,0z" />
-    <path android:fillColor="#99FFFFFF" android:pathData="M20,80l40,-50l30,35l25,-25l35,40z" />
-    <path android:fillColor="#FFFFFFFF" android:pathData="M180,30a12,12 0 1,0 24,0a12,12 0 1,0 -24,0z" />
+    <path android:pathData="M0,0h240v100h-240z"
+        android:fillColor="#01579B" />
+    <path android:pathData="M0,88h240v12h-240z"
+        android:fillColor="#0D47A1" />
+    <path android:pathData="M100,66a20,20 0 1,0 40,0a20,20 0 1,0 -40,0z"
+        android:strokeColor="#E1F5FE"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path android:pathData="M120,66L104,30M100,30h16M120,66L150,40M144,40h16M120,66L104,88M136,88h-40"
+        android:strokeColor="#E1F5FE"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path android:pathData="M115,66a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z"
+        android:fillColor="#FFCC80" />
+    <path android:pathData="M34,30a6,6 0 1,0 12,0a6,6 0 1,0 -12,0z"
+        android:fillColor="#4FC3F7" />
+    <path android:pathData="M192,24a8,8 0 1,0 16,0a8,8 0 1,0 -16,0z"
+        android:fillColor="#4FC3F7" />
+    <path android:pathData="M205,60a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z"
+        android:fillColor="#4FC3F7" />
 </vector>

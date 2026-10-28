@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Dibujo de la actividad Natación -->
+<!-- Dibujo de la actividad Natación: el agua de la piscina y una escalera -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="240dp"
     android:height="100dp"
     android:viewportWidth="240"
     android:viewportHeight="100">
-    <path android:fillColor="#FF00838F" android:pathData="M0,0h240v100h-240z" />
-    <path android:fillColor="#66FFFFFF" android:pathData="M150,50a40,40 0 1,0 80,0a40,40 0 1,0 -80,0z" />
-    <path android:fillColor="#99FFFFFF" android:pathData="M20,80l40,-50l30,35l25,-25l35,40z" />
-    <path android:fillColor="#FFFFFFFF" android:pathData="M180,30a12,12 0 1,0 24,0a12,12 0 1,0 -24,0z" />
+    <path android:pathData="M0,0h240v100h-240z"
+        android:fillColor="#00838F" />
+    <path android:pathData="M0,40C20,32 40,48 60,40C80,32 100,48 120,40C140,32 160,48 180,40C200,32 220,48 240,40L240,100L0,100Z"
+        android:fillColor="#4DD0E1" />
+    <path android:pathData="M0,62C20,54 40,70 60,62C80,54 100,70 120,62C140,54 160,70 180,62C200,54 220,70 240,62L240,100L0,100Z"
+        android:fillColor="#26C6DA" />
+    <path android:pathData="M190,10V70M210,10V70M190,28H210M190,46H210"
+        android:strokeColor="#E0F7FA"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
 </vector>

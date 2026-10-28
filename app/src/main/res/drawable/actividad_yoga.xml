@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Dibujo de la actividad Yoga -->
+<!-- Dibujo de la actividad Yoga: una figura en postura de equilibrio sobre una esterilla -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="240dp"
     android:height="100dp"
     android:viewportWidth="240"
     android:viewportHeight="100">
-    <path android:fillColor="#FF9C27B0" android:pathData="M0,0h240v100h-240z" />
-    <path android:fillColor="#66FFFFFF" android:pathData="M150,50a40,40 0 1,0 80,0a40,40 0 1,0 -80,0z" />
-    <path android:fillColor="#99FFFFFF" android:pathData="M20,80l40,-50l30,35l25,-25l35,40z" />
-    <path android:fillColor="#FFFFFFFF" android:pathData="M180,30a12,12 0 1,0 24,0a12,12 0 1,0 -24,0z" />
+    <path android:pathData="M0,0h240v100h-240z"
+        android:fillColor="#9C27B0" />
+    <path android:pathData="M60,84h120v8h-120z"
+        android:fillColor="#E1BEE7" />
+    <path android:pathData="M111,24a9,9 0 1,0 18,0a9,9 0 1,0 -18,0z"
+        android:fillColor="#F3E5F5" />
+    <path android:pathData="M120,34L120,62M120,40L96,22M120,40L144,22M120,62L120,84M120,62L136,70L126,62"
+        android:strokeColor="#F3E5F5"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+    <path android:pathData="M26,40a14,14 0 1,0 28,0a14,14 0 1,0 -28,0z"
+        android:fillColor="#BA68C8"
+        android:fillAlpha="0.6" />
+    <path android:pathData="M194,36a10,10 0 1,0 20,0a10,10 0 1,0 -20,0z"
+        android:fillColor="#BA68C8"
+        android:fillAlpha="0.6" />
 </vector>

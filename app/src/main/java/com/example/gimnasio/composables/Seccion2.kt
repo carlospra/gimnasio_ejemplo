@@ -33,7 +33,7 @@ fun Seccion2() {
     ) {
         Image(
             painter = painterResource(R.drawable.actividad_yoga),
-            contentDescription = "Dibujo de la actividad Yoga",
+            contentDescription = "Dibujo de la actividad Yoga: una figura en postura de equilibrio sobre una esterilla",
             contentScale = ContentScale.Crop,
             modifier = Modifier
                 .fillMaxWidth()

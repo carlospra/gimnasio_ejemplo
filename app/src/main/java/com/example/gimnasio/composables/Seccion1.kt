@@ -33,7 +33,7 @@ fun Seccion1() {
     ) {
         Image(
             painter = painterResource(R.drawable.actividad_spinning),
-            contentDescription = "Dibujo de la actividad Spinning",
+            contentDescription = "Dibujo de la actividad Spinning: una bicicleta estática",
             contentScale = ContentScale.Crop,
             modifier = Modifier
                 .fillMaxWidth()
